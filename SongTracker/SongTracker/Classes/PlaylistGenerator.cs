@@ -11,6 +11,7 @@ namespace SongTracker.Classes
         public PlaylistGenerator(List<Song> Songlist)
         {
             SongList = Songlist;
+            // tässä on nyt muutos! GitHubin testaus.
         }
         public List<Song> GeneratePlaylist(int RequestedListLength)
         {
